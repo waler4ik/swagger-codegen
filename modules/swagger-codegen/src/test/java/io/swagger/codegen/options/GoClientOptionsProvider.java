@@ -25,6 +25,8 @@ public class GoClientOptionsProvider implements OptionsProvider {
                 .put(CodegenConstants.PACKAGE_VERSION, PACKAGE_VERSION_VALUE)
                 .put(CodegenConstants.PACKAGE_NAME, PACKAGE_NAME_VALUE)
                 .put(CodegenConstants.HIDE_GENERATION_TIMESTAMP, "true")
+                .put(CodegenConstants.MODEL_PACKAGE, "")
+                .put(CodegenConstants.API_PACKAGE, "")
                 .put(CodegenConstants.WITH_XML, "true")
                 .build();
     }
